@@ -22,7 +22,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	{
 		new->parent = NULL;
 		parent = new;
-		return new;
+		return (new);
 	}
 	new->parent = parent;
 
