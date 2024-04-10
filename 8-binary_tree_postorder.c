@@ -2,13 +2,13 @@
 #include "binary_trees.h"
 
 /**
-* binary_tree_inorder - check code
+* binary_tree_postorder - check code
 *
 * @tree: pointer
 * @func: function pointer
 * Return: new node
 */
-void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
+void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 {
 
 	if (tree == NULL || func == NULL)
