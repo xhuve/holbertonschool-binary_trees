@@ -2,9 +2,9 @@
 #include "binary_trees.h"
 
 /**
-* binary_tree_is_perfect - check code
+* binary_tree_sibling - check code
 *
-* @tree: pointer
+* @node: pointer
 * Return: new node
 */
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)
